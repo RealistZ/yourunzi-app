@@ -29,23 +29,23 @@
 		<view class="cate-section">
 			<view class="cate-item">
 				<image src="/static/temp/c3.png"></image>
-				<text>环球美食</text>
+				<text>分销产品</text>
 			</view>
 			<view class="cate-item">
 				<image src="/static/temp/c5.png"></image>
-				<text>个护美妆</text>
+				<text>加盟政策</text>
 			</view>
 			<view class="cate-item">
 				<image src="/static/temp/c6.png"></image>
-				<text>营养保健</text>
+				<text>合伙人招募</text>
 			</view>
 			<view class="cate-item">
 				<image src="/static/temp/c7.png"></image>
-				<text>家居厨卫</text>
+				<text>实体店</text>
 			</view>
 			<view class="cate-item">
 				<image src="/static/temp/c8.png"></image>
-				<text>速食生鲜</text>
+				<text>我的代理</text>
 			</view>
 		</view>
 		
@@ -108,7 +108,6 @@
 				this.titleNViewBackground = carouselList[0].background;
 				this.swiperLength = carouselList.length;
 				this.carouselList = carouselList;
-				
 				let goodsList = await this.$api.json('goodsList');
 				this.goodsList = goodsList || [];
 			},

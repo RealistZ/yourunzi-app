@@ -14,14 +14,13 @@
 			<view class="vip-card-box">
 				<image class="card-bg" src="/static/vip-card-bg.png" mode=""></image>
 				<view class="b-btn">
-					立即开通
+					升级代理
 				</view>
 				<view class="tit">
 					<text class="yticon icon-iLinkapp-"></text>
-					DCloud会员
+					个人代理
 				</view>
-				<text class="e-m">DCloud Union</text>
-				<text class="e-b">开通会员开发无bug 一测就上线</text>
+				
 			</view>
 		</view>
 		
@@ -40,15 +39,15 @@
 			<view class="tj-sction">
 				<view class="tj-item">
 					<text class="num">128.8</text>
-					<text>余额</text>
+					<text>累计奖金</text>
 				</view>
 				<view class="tj-item">
 					<text class="num">0</text>
-					<text>优惠券</text>
+					<text>我的团队</text>
 				</view>
 				<view class="tj-item">
-					<text class="num">20</text>
-					<text>积分</text>
+					<text class="num">0</text>
+					<text>我的邀请</text>
 				</view>
 			</view>
 			<!-- 订单 -->
@@ -72,7 +71,7 @@
 			</view>
 			<!-- 浏览历史 -->
 			<view class="history-section icon">
-				<view class="sec-header">
+				<!-- <view class="sec-header">
 					<text class="yticon icon-lishijilu"></text>
 					<text>浏览历史</text>
 				</view>
@@ -83,7 +82,7 @@
 					<image @click="navTo('/pages/product/product')" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2691146630,2165926318&fm=26&gp=0.jpg" mode="aspectFill"></image>
 					<image @click="navTo('/pages/product/product')" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553105443324&di=8141bf13f3f208c61524d67f9bb83942&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ac9a5548d29b0000019ae98e6d98.jpg" mode="aspectFill"></image>
 					<image @click="navTo('/pages/product/product')" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=191678693,2701202375&fm=26&gp=0.jpg" mode="aspectFill"></image>
-				</scroll-view>
+				</scroll-view> -->
 				<list-cell icon="icon-iconfontweixin" iconColor="#e07472" title="我的钱包" tips="您的会员还有3天过期"></list-cell>
 				<list-cell icon="icon-dizhi" iconColor="#5fcda2" title="地址管理" @eventClick="navTo('/pages/address/address')"></list-cell>
 				<list-cell icon="icon-share" iconColor="#9789f7" title="分享" tips="邀请好友赢10万大礼"></list-cell>
