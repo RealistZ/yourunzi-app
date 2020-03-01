@@ -117,7 +117,71 @@
 					}
 				}
 			}
+		},  {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "升级代理",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path": "pages/fenxiao/mingxi",
+			"style": {
+				"navigationBarTitleText": "累计佣金",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
 		}, {
+			"path": "pages/fenxiao/team",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/fenxiao/index",
+			"style": {
+				"navigationBarTitleText": "我的佣金",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path": "pages/fenxiao/cash",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/fenxiao/sort",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/fenxiao/userlist",
+			"style": {
+				"navigationBarTitleText": "团队成员",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path": "pages/fenxiao/userctn",
+			"style": {
+				"navigationBarTitleText": "成员信息",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
 			"path": "pages/order/order",
 			"style": {
 				"navigationBarTitleText": "我的订单",
@@ -125,7 +189,7 @@
 					"bounce": "none"
 				}
 			}
-		}, {
+		},{
 			"path": "pages/money/money",
 			"style": {}
 		}, {

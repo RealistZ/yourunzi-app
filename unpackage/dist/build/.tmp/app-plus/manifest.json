@@ -5,12 +5,12 @@
     "iPad"
   ],
   "id": "__UNI__81F599A",
-  "name": "yourunzi4",
+  "name": "工程版",
   "version": {
     "name": "1.0.0",
     "code": "100"
   },
-  "description": "",
+  "description": "这是一个测试版程序",
   "launch_path": "__uniappview.html",
   "developer": {
     "name": "",

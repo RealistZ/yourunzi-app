@@ -20,35 +20,35 @@
 		<view class="goods-section">
 			<view class="g-header b-b">
 				<image class="logo" src="http://duoduo.qibukj.cn/./Upload/Images/20190321/201903211727515.png"></image>
-				<text class="name">西城小店铺</text>
+				<text class="name">zhaofayong</text>
 			</view>
 			<!-- 商品列表 -->
 			<view class="g-item">
 				<image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=756705744,3505936868&fm=11&gp=0.jpg"></image>
 				<view class="right">
-					<text class="title clamp">古黛妃 短袖t恤女夏装2019新款</text>
-					<text class="spec">春装款 L</text>
+					<text class="title clamp">2020款塑形膏</text>
+					<text class="spec">500ML</text>
 					<view class="price-box">
 						<text class="price">￥17.8</text>
 						<text class="number">x 1</text>
 					</view>
 				</view>
 			</view>
-			<view class="g-item">
+			<!-- <view class="g-item">
 				<image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1620020012,789258862&fm=26&gp=0.jpg"></image>
 				<view class="right">
-					<text class="title clamp">韩版于是洞洞拖鞋 夏季浴室防滑简约居家【新人专享，限选意见】</text>
-					<text class="spec">春装款 L</text>
+					<text class="title clamp">【新人专享，限选意见】</text>
+					<text class="spec">500ML</text>
 					<view class="price-box">
 						<text class="price">￥17.8</text>
 						<text class="number">x 1</text>
 					</view>
 				</view>
-			</view>
+			</view> -->
 		</view>
 
 		<!-- 优惠明细 -->
-		<view class="yt-list">
+		<!-- <view class="yt-list">
 			<view class="yt-list-cell b-b" @click="toggleMask('show')">
 				<view class="cell-icon">
 					券
@@ -66,7 +66,7 @@
 				<text class="cell-tit clamp">商家促销</text>
 				<text class="cell-tip disabled">暂无可用优惠</text>
 			</view>
-		</view>
+		</view> -->
 		<!-- 金额明细 -->
 		<view class="yt-list">
 			<view class="yt-list-cell b-b">
@@ -101,7 +101,7 @@
 		<view class="mask" :class="maskState===0 ? 'none' : maskState===1 ? 'show' : ''" @click="toggleMask">
 			<view class="mask-content" @click.stop.prevent="stopPrevent">
 				<!-- 优惠券页面，仿mt -->
-				<view class="coupon-item" v-for="(item,index) in couponList" :key="index">
+				<!-- <view class="coupon-item" v-for="(item,index) in couponList" :key="index">
 					<view class="con">
 						<view class="left">
 							<text class="title">{{item.title}}</text>
@@ -116,7 +116,7 @@
 						<view class="circle r"></view>
 					</view>
 					<text class="tips">限新用户使用</text>
-				</view>
+				</view> -->
 			</view>
 		</view>
 
@@ -145,11 +145,11 @@
 					}
 				],
 				addressData: {
-					name: '许小星',
-					mobile: '13853989563',
-					addressName: '金九大道',
-					address: '山东省济南市历城区',
-					area: '149号',
+					name: 'zhaofayong',
+					mobile: '15762330505',
+					addressName: '太原路',
+					address: '山东省日照市东港区',
+					area: '12号',
 					default: false,
 				}
 			}

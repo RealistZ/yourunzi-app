@@ -9,6 +9,14 @@
     "pages/user/user",
     "pages/detail/detail",
     "pages/order/order",
+    "pages/fenxiao/mingxi",
+    "pages/fenxiao/team",
+    "pages/fenxiao/index",
+    "pages/fenxiao/cash",
+    "pages/fenxiao/sort",
+    "pages/fenxiao/userlist",
+    "pages/fenxiao/userctn",
+    "pages/order/order",
     "pages/money/money",
     "pages/order/createOrder",
     "pages/address/address",
@@ -63,7 +71,7 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "yourunzi4",
+  "appname": "工程版",
   "compilerVersion": "2.5.1",
   "usingComponents": {}
 }

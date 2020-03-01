@@ -15,7 +15,7 @@
 		</view>
 		
 		<view class="introduce-section">
-			<text class="title">恒源祥2019春季长袖白色t恤 新款春装</text>
+			<text class="title">yourunzi纯露</text>
 			<view class="price-box">
 				<text class="price-tip">¥</text>
 				<text class="price">341.6</text>
@@ -30,7 +30,7 @@
 		</view>
 		
 		<!--  分享 -->
-		<view class="share-section" @click="share">
+		<!-- <view class="share-section" @click="share">
 			<view class="share-icon">
 				<text class="yticon icon-xingxing"></text>
 				 返
@@ -42,7 +42,7 @@
 				<text class="yticon icon-you"></text>
 			</view>
 			
-		</view>
+		</view> -->
 		
 		<view class="c-list">
 			<view class="c-row b-b" @click="toggleSpec">
@@ -54,18 +54,18 @@
 				</view>
 				<text class="yticon icon-you"></text>
 			</view>
-			<view class="c-row b-b">
+			<!-- <view class="c-row b-b">
 				<text class="tit">优惠券</text>
 				<text class="con t-r red">领取优惠券</text>
 				<text class="yticon icon-you"></text>
-			</view>
+			</view> -->
 			<view class="c-row b-b">
 				<text class="tit">促销活动</text>
 				<view class="con-list">
-					<text>新人首单送20元无门槛代金券</text>
+					<!-- <text>新人首单送20元无门槛代金券</text>
 					<text>订单满50减10</text>
 					<text>订单满100减30</text>
-					<text>单笔购买满两件免邮费</text>
+					<text>单笔购买满两件免邮费</text> -->
 				</view>
 			</view>
 			<view class="c-row b-b">
@@ -88,11 +88,11 @@
 			<view class="eva-box">
 				<image class="portrait" src="http://img3.imgtn.bdimg.com/it/u=1150341365,1327279810&fm=26&gp=0.jpg" mode="aspectFill"></image>
 				<view class="right">
-					<text class="name">Leo yo</text>
-					<text class="con">商品收到了，79元两件，质量不错，试了一下有点瘦，但是加个外罩很漂亮，我很喜欢</text>
+					<text class="name">yourunzi</text>
+					<text class="con">商品收到了，我很喜欢</text>
 					<view class="bot">
-						<text class="attr">购买类型：XL 红色</text>
-						<text class="time">2019-04-01 19:21</text>
+						<text class="attr">购买类型：1瓶 瓶装</text>
+						<text class="time">2020-04-01 19:21</text>
 					</view>
 				</view>
 			</view>
@@ -191,80 +191,78 @@
 				shareList: [],
 				imgList: [
 					{
-						src: 'https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg'
+						src: '/static/temp/banner4.jpg'
 					},
+					
 					{
-						src: 'https://gd3.alicdn.com/imgextra/i3/TB1RPFPPFXXXXcNXpXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg'
-					},
-					{
-						src: 'https://gd2.alicdn.com/imgextra/i2/38832490/O1CN01IYq7gu1UGShvbEFnd_!!38832490.jpg_400x400.jpg'
+						src: '/static/temp/banner5.jpg'
 					}
 				],
 				desc: `
 					<div style="width:100%">
-						<img style="width:100%;display:block;" src="https://gd3.alicdn.com/imgextra/i4/479184430/O1CN01nCpuLc1iaz4bcSN17_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd2.alicdn.com/imgextra/i2/479184430/O1CN01gwbN931iaz4TzqzmG_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd3.alicdn.com/imgextra/i3/479184430/O1CN018wVjQh1iaz4aupv1A_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd4.alicdn.com/imgextra/i4/479184430/O1CN01tWg4Us1iaz4auqelt_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd1.alicdn.com/imgextra/i1/479184430/O1CN01Tnm1rU1iaz4aVKcwP_!!479184430.jpg_400x400.jpg" />
+						<img style="width:100%;display:block;" src="/static/temp/banner4.jpg" />
+						<img style="width:100%;display:block;" src="/static/temp/banner4.jpg" />
+						<img style="width:100%;display:block;" src="/static/temp/banner4.jpg" />
+						<img style="width:100%;display:block;" src="/static/temp/banner4.jpg" />
+						<img style="width:100%;display:block;" src="/static/temp/banner4.jpg" />
 					</div>
 				`,
 				specList: [
 					{
 						id: 1,
-						name: '尺寸',
+						name: '属性',
 					},
 					{	
 						id: 2,
-						name: '颜色',
+						name: '规格',
 					},
 				],
 				specChildList: [
 					{
 						id: 1,
 						pid: 1,
-						name: 'XS',
+						name: '1件',
 					},
-					{
-						id: 2,
-						pid: 1,
-						name: 'S',
-					},
-					{
-						id: 3,
-						pid: 1,
-						name: 'M',
-					},
-					{
-						id: 4,
-						pid: 1,
-						name: 'L',
-					},
-					{
-						id: 5,
-						pid: 1,
-						name: 'XL',
-					},
-					{
-						id: 6,
-						pid: 1,
-						name: 'XXL',
-					},
+					// {
+					// 	id: 2,
+					// 	pid: 1,
+					// 	name: 'S',
+					// },
+					// {
+					// 	id: 3,
+					// 	pid: 1,
+					// 	name: 'M',
+					// },
+					// {
+					// 	id: 4,
+					// 	pid: 1,
+					// 	name: 'L',
+					// },
+					// {
+					// 	id: 5,
+					// 	pid: 1,
+					// 	name: 'XL',
+					// },
+					// {
+					// 	id: 6,
+					// 	pid: 1,
+					// 	name: 'XXL',
+					// },
 					{
 						id: 7,
 						pid: 2,
-						name: '白色',
+						name: '瓶装',
 					},
-					{
-						id: 8,
-						pid: 2,
-						name: '珊瑚粉',
-					},
-					{
-						id: 9,
-						pid: 2,
-						name: '草木绿',
-					},
+					// {
+					// 	id: 8,
+					// 	pid: 2,
+					// 	name: '珊瑚粉',
+					// },
+					// {
+					// 	id: 9,
+					// 	pid: 2,
+					// 	name: '草木绿',
+					// },
 				]
 			};
 		},
